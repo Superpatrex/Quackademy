@@ -1,0 +1,137 @@
+{
+    "LessonName" : "Basic Arithmetic 1",
+    "Description" : "A question set designed to test students Math skills ranging from simple Arithmetic to algebra",
+    "Questions" :
+    [
+        {
+            "Text" : "2 + 3 = ",
+            "SelectableAnswers" : 
+            [
+                "3",
+                "7",
+                "10",
+                "5"
+            ],
+            "CorrectAnswer" : 3,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "5 + 1 = ",
+            "SelectableAnswers" : 
+            [
+                "3",
+                "6",
+                "9",
+                "1"
+            ],
+            "CorrectAnswer" : 1,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "7 + 4 = ",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "11"
+            ],
+            "CorrectAnswer" : 3,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "8 - 2 = ",
+            "SelectableAnswers" : 
+            [
+                "6",
+                "3",
+                "9",
+                "11"
+            ],
+            "CorrectAnswer" : 0,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "6 - 3 = ",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "11"
+            ],
+            "CorrectAnswer" : 1,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "9 - 5 = ",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "4"
+            ],
+            "CorrectAnswer" : 3,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "How many sides does a square have?",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "4",
+                "11"
+            ],
+            "CorrectAnswer" : 2,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "How many sides does a triangle have?",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "11"
+            ],
+            "CorrectAnswer" : 1,
+            "PointValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "If you have 4 apples and you eat 2, how many apples do you have left?",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "CorrectAnswer" : 0,
+            "PointsValue" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "There are 5 red balls and 3 blue balls. How many balls are there in total?",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "8"
+            ],
+            "CorrectAnswer" : 3,
+            "PointValue" : 10,
+            "Tries" : 1
+        }
+    ]
+}

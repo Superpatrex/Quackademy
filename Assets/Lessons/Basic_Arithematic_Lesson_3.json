@@ -1,0 +1,44 @@
+{
+    "LessonName" : "Basic Arithmetic 3",
+    "Description" : "A question set designed to test students Math skills ranging from simple Arithmetic to algebra",
+    "OutOfPoints" : 100,
+    "Questions" :
+    [
+        {
+            "Text" : "What is 3 times 5?",
+            "SelectableAnswers" : 
+            [
+                "3",
+                "7",
+                "10",
+                "15"
+            ],
+            "CorrectAnswer" : 3,
+            "Point Value" : 10
+        },
+        {
+            "Text" : "What is 6 divided by 2?",
+            "SelectableAnswers" : 
+            [
+                "3",
+                "71",
+                "9",
+                "1"
+            ],
+            "CorrectAnswer" : 0,
+            "Point Value" : 10
+        },
+        {
+            "Text" : "What is 5 plus 4?",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "3",
+                "9",
+                "15"
+            ],
+            "CorrectAnswer" : 2,
+            "Point Value" : 10
+        }
+    ]
+}

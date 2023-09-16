@@ -1,0 +1,85 @@
+{
+    "LessonName" : "Basic Arithmetic 2",
+    "Description" : "A question set designed to test students Math skills ranging from simple Arithmetic to algebra",
+    "Questions" :
+    [
+        {
+            "Text" : "3 x 4 = ",
+            "SelectableAnswers" : 
+            [
+                "3",
+                "7",
+                "12",
+                "15"
+            ],
+            "CorrectAnswer" : 2,
+            "Point Value" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "5 x 7 = ",
+            "SelectableAnswers" : 
+            [
+                "10",
+                "17",
+                "35",
+                "27"
+            ],
+            "CorrectAnswer" : 3,
+            "Point Value" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "2 x 9 = ",
+            "SelectableAnswers" : 
+            [
+                "12",
+                "18",
+                "9",
+                "10"
+            ],
+            "CorrectAnswer" : 1,
+            "Point Value" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "12 ÷ 3 = ",
+            "SelectableAnswers" : 
+            [
+                "4",
+                "2",
+                "3",
+                "8"
+            ],
+            "CorrectAnswer" : 0,
+            "Point Value" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "21 ÷ 7 = ",
+            "SelectableAnswers" : 
+            [
+                "2",
+                "10",
+                "3",
+                "4"
+            ],
+            "CorrectAnswer" : 2,
+            "Point Value" : 10,
+            "Tries" : 1
+        },
+        {
+            "Text" : "18 ÷ 2 = ",
+            "SelectableAnswers" : 
+            [
+                "10",
+                "3",
+                "9",
+                "5"
+            ],
+            "CorrectAnswer" : 2,
+            "Point Value" : 10,
+            "Tries" : 1
+        }
+    ]
+}
