@@ -20,6 +20,7 @@ public class TeacherMenu : MonoBehaviour
             newButton.GetComponent<Button>().onClick.AddListener(() => selectLesson(i));
         }
     }
+
     private void selectLesson(int i)
     {
         Debug.Log("Selected Lesson: " + i);
