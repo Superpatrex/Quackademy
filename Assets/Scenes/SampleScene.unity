@@ -5679,6 +5679,10 @@ PrefabInstance:
       value: QuackBox
       objectReference: {fileID: 0}
     - target: {fileID: 4474065681320813374, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_Volume
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474065681320813374, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3fd4b9311dc7c7248b6929d491c2906e, type: 3}
