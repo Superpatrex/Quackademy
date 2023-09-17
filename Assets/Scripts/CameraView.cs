@@ -50,7 +50,8 @@ public class CameraView : MonoBehaviour
                 rotation -= 45f * (Time.deltaTime);
             }
 
-            OverheadCamera.transform.position = Quaternion.Euler(0, rotation, 0) * new Vector3(0, 5.2f, 5.5f);
+            OverheadCamera.transform.position = Quaternion.Euler(0, rotation, 0) * new Vector3(0, 5.2f, -5.5f);
+            OverheadCamera.transform.rotation = Quaternion.LookRotation(SpectatorCamera.transform.position - OverheadCamera.transform.position);
         }
 
         TeacherMenu.transform.position = CurrentCamera.transform.position + CurrentCamera.transform.forward * 1;
