@@ -28,12 +28,12 @@ public class StudentStatistic : MonoBehaviour
 
     public void SetScoreString()
     {
-        this.ScoreString.text = "[" + (Question.GetComponent<QuestionController>().GetNuberRight()).ToString() + "/" + (Question.GetComponent<QuestionController>().currentLesson.Questions.Length).ToString() + "]";
+        this.ScoreString.text = "[" + (Question.GetComponent<QuestionController>().GetNuberRight()).ToString() + "/" + (Question.GetComponent<QuestionController>().index).ToString() + "]";
     }
 
     public void SetScoreString(int start)
     {
-        this.ScoreString.text = "[" + (start).ToString() + "/" + (Question.GetComponent<QuestionController>().currentLesson.Questions.Length).ToString() + "]";
+        this.ScoreString.text = "[" + (start).ToString() + "/" + (Question.GetComponent<QuestionController>().index + 1).ToString() + "]";
     }
 
     public void SetPercentCorrect()
