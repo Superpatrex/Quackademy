@@ -11,6 +11,11 @@ public class JSONReader : MonoBehaviour
         public Text Lesson1;
         public Text Lesson2;
         public Text Lesson3;
+        public Text Lesson4;
+        public Text Lesson5;
+        public Text Lesson6;
+        public Text Lesson7;
+        public Text Lesson8;
 
         public GameObject teacherMenu;
 
@@ -22,6 +27,16 @@ public class JSONReader : MonoBehaviour
          lessonInJson = JsonUtility.FromJson<Lesson>(Lesson2.text);
         lessonList.Add(lessonInJson);
          lessonInJson = JsonUtility.FromJson<Lesson>(Lesson3.text);
+        lessonList.Add(lessonInJson);
+         lessonInJson = JsonUtility.FromJson<Lesson>(Lesson4.text);
+        lessonList.Add(lessonInJson);
+         lessonInJson = JsonUtility.FromJson<Lesson>(Lesson5.text);
+        lessonList.Add(lessonInJson);
+         lessonInJson = JsonUtility.FromJson<Lesson>(Lesson6.text);
+        lessonList.Add(lessonInJson);
+         lessonInJson = JsonUtility.FromJson<Lesson>(Lesson7.text);
+        lessonList.Add(lessonInJson);
+         lessonInJson = JsonUtility.FromJson<Lesson>(Lesson8.text);
         lessonList.Add(lessonInJson);
 
         GameManager.instance.setLessonList(lessonList);

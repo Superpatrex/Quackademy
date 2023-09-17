@@ -811,7 +811,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 503
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -991,6 +991,105 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1423379725}
   m_SourcePrefab: {fileID: 100100000, guid: ea58571ef00c42a46b550fd9845419b2, type: 3}
+--- !u!1 &101036336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101036337}
+  - component: {fileID: 101036339}
+  - component: {fileID: 101036338}
+  m_Layer: 5
+  m_Name: Lesson 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &101036337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101036336}
+  m_LocalRotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059802}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0933502}
+  m_LocalScale: {x: 0.00040000025, y: 0.00040000014, z: 0.00040000014}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952278693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275273.75, y: 275084.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &101036338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101036336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "{\r\n    \"LessonName\" : \"Science Quiz\",\r\n    \"Description\" : \"A
+    question set designed to test your knowledge of various scientific disciplines.\",\r\n   
+    \"Questions\" : [\r\n        {\r\n            \"Text\" : \"What is the chemical
+    symbol for gold?\",\r\n            \"SelectableAnswers\" : [\"Au\", \"Ag\", \"Fe\",
+    \"Hg\"],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point Value\"
+    : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which gas do plants absorb from the atmosphere and use during photosynthesis?\",\r\n           
+    \"SelectableAnswers\" : [\"Oxygen\", \"Carbon Dioxide\", \"Nitrogen\", \"Hydrogen\"],\r\n           
+    \"CorrectAnswer\" : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"What is the smallest
+    unit of matter that retains the properties of an element?\",\r\n            \"SelectableAnswers\"
+    : [\"Atom\", \"Molecule\", \"Cell\", \"Proton\"],\r\n            \"CorrectAnswer\"
+    : 0,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"What force keeps planets in orbit
+    around the sun?\",\r\n            \"SelectableAnswers\" : [\"Gravity\", \"Magnetism\",
+    \"Friction\", \"Tension\"],\r\n            \"CorrectAnswer\" : 0,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which planet in our solar system is known as the 'Red Planet'?\",\r\n           
+    \"SelectableAnswers\" : [\"Venus\", \"Mars\", \"Jupiter\", \"Saturn\"],\r\n           
+    \"CorrectAnswer\" : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        }\r\n    ]\r\n}"
+--- !u!222 &101036339
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101036336}
+  m_CullTransparentMesh: 1
 --- !u!1 &107744693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +3012,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339680214}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &378499352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1854502873544937639, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &401293921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3883314874363407946, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+  m_PrefabInstance: {fileID: 708083001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &401293922 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4474065681320813374, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+  m_PrefabInstance: {fileID: 708083001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &401293924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401293921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55aebaadb1466749a7dfb3205869768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 401293922}
 --- !u!1 &423529120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3306,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432551328}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &437041829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1060044792691913669, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &446138131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9067271571712856400, guid: 62bc4af7b7dcae7439bad3d58f2abcb8, type: 3}
@@ -3982,7 +4126,8 @@ MonoBehaviour:
   FloorCamera: {fileID: 697290938}
   SpectatorCamera: {fileID: 1372728273}
   MenuCamera: {fileID: 56965053}
-  TeacherMenu: {fileID: 990794065}
+  TeacherGUI: {fileID: 2103116318}
+  canvas: {fileID: 2103116324}
 --- !u!1001 &568300345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4362,6 +4507,11 @@ Transform:
   - {fileID: 474532068}
   m_Father: {fileID: 1354736807}
   m_LocalEulerAnglesHint: {x: 0, y: 1.038, z: 0}
+--- !u!224 &607634903 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5239519079417432668, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &632221886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4769,8 +4919,10 @@ MonoBehaviour:
   answer4Text: {fileID: 1705265026}
   teacherMenu: {fileID: 990794065}
   boomBox: {fileID: 324711173}
+  playerStatistics: {fileID: 2103116318}
   correctAnswer: 0
   index: 0
+  numberWrong: 0
 --- !u!1 &679732114
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,6 +5622,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706394379}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &708083001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659854506020746833, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883314874363407946, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_Name
+      value: QuackBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474065681320813374, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3fd4b9311dc7c7248b6929d491c2906e, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3883314874363407946, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 401293924}
+  m_SourcePrefab: {fileID: 100100000, guid: 118a5feeca0d9a246ac9178a042a1447, type: 3}
 --- !u!1 &720444002
 GameObject:
   m_ObjectHideFlags: 0
@@ -5890,6 +6110,129 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744064597}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &760137709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760137710}
+  - component: {fileID: 760137712}
+  - component: {fileID: 760137711}
+  m_Layer: 5
+  m_Name: Lesson 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &760137710
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760137709}
+  m_LocalRotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059802}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0933502}
+  m_LocalScale: {x: 0.00040000025, y: 0.00040000014, z: 0.00040000014}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952278693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275273.75, y: 275084.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &760137711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760137709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "{\r\n    \"LessonName\" : \"FIU Trivia\",\r\n    \"Description\" : \"A
+    question set designed to test your knowledge about Florida International University
+    (FIU).\",\r\n    \"Questions\" : [\r\n        {\r\n            \"Text\" : \"When
+    was Florida International University (FIU) founded?\",\r\n            \"SelectableAnswers\"
+    : [\"1957\", \"1965\", \"1972\", \"1980\"],\r\n            \"CorrectAnswer\"
+    : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"Which city is FIU's main campus located
+    in?\",\r\n            \"SelectableAnswers\" : [\"Miami\", \"Orlando\", \"Tampa\",
+    \"Jacksonville\"],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point
+    Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What are the FIU Panthers' colors?\",\r\n            \"SelectableAnswers\"
+    : [\"Blue and Gold\", \"Green and White\", \"Red and Black\", \"Orange and Blue\"],\r\n           
+    \"CorrectAnswer\" : 0,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"Which former FIU student-athlete
+    became a famous NFL wide receiver known for his touchdown celebrations?\",\r\n           
+    \"SelectableAnswers\" : [\"T.Y. Hilton\", \"Pierre Gar\xE7on\", \"DeVonta Freeman\",
+    \"Antonio Brown\"],\r\n            \"CorrectAnswer\" : 3,\r\n            \"Point
+    Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What is the name of the library located on FIU's main campus?\",\r\n           
+    \"SelectableAnswers\" : [\"Graham Center\", \"Green Library\", \"Modesto A. Maidique
+    Campus Library\", \"Panther Central\"],\r\n            \"CorrectAnswer\" : 2,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which renowned journalist and author is an alumnus of FIU and gave
+    the commencement address in 2019?\",\r\n            \"SelectableAnswers\" : [\"Tom
+    Brokaw\", \"Anderson Cooper\", \"Katie Couric\", \"Jorge Ramos\"],\r\n           
+    \"CorrectAnswer\" : 3,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"What is the mascot
+    of FIU?\",\r\n            \"SelectableAnswers\" : [\"Golden Eagle\", \"Golden
+    Panther\", \"Golden Owl\", \"Golden Lion\"],\r\n            \"CorrectAnswer\"
+    : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"Which of the following is a well-known
+    FIU research facility dedicated to oceanographic and environmental research?\",\r\n           
+    \"SelectableAnswers\" : [\"FIU Science Center\", \"FIU Technology Park\", \"FIU
+    Art Museum\", \"FIU Biscayne Bay Campus\"],\r\n            \"CorrectAnswer\"
+    : 3,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"What is the name of FIU's athletic
+    conference for its NCAA Division I sports teams?\",\r\n            \"SelectableAnswers\"
+    : [\"Atlantic Coast Conference\", \"Conference USA\", \"American Athletic Conference\",
+    \"Sun Belt Conference\"],\r\n            \"CorrectAnswer\" : 1,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which former FIU basketball player went on to become an NBA player
+    and is known for his defensive skills?\",\r\n            \"SelectableAnswers\"
+    : [\"Carlos Arroyo\", \"Raja Bell\", \"Jermaine O'Neal\", \"Carlos Boozer\"],\r\n           
+    \"CorrectAnswer\" : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        }\r\n    ]\r\n}\r\n"
+--- !u!222 &760137712
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760137709}
+  m_CullTransparentMesh: 1
 --- !u!1 &884979441
 GameObject:
   m_ObjectHideFlags: 0
@@ -7273,6 +7616,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061591049}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1069130416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069130419}
+  - component: {fileID: 1069130418}
+  - component: {fileID: 1069130417}
+  m_Layer: 9
+  m_Name: SetPercent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1069130417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069130416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 100%
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36.6
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 106.370445, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1069130418
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069130416}
+  m_CullTransparentMesh: 1
+--- !u!224 &1069130419
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069130416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 607634903}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 150, y: -20}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1071076065
 GameObject:
   m_ObjectHideFlags: 0
@@ -8082,7 +8559,123 @@ MonoBehaviour:
   correct: {fileID: 8300000, guid: cb70fe13ceb8d6744987f78b38c04bd0, type: 3}
   incorrect: {fileID: 8300000, guid: d2851e75b4e91d74f8ee4722ddcc4782, type: 3}
   Question: {fileID: 674517051}
+  playerStatistics: {fileID: 2103116318}
   QuestionNumber: 4
+--- !u!1 &1138899539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138899540}
+  - component: {fileID: 1138899542}
+  - component: {fileID: 1138899541}
+  m_Layer: 5
+  m_Name: Lesson 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1138899540
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138899539}
+  m_LocalRotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059802}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0933502}
+  m_LocalScale: {x: 0.00040000025, y: 0.00040000014, z: 0.00040000014}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952278693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275273.75, y: 275084.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1138899541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138899539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "{\r\n    \"LessonName\" : \"Elementary English Quiz\",\r\n    \"Description\"
+    : \"A quiz to test elementary students' knowledge of basic English language concepts.\",\r\n   
+    \"Questions\" : [\r\n        {\r\n            \"Text\" : \"What is the opposite
+    of 'happy'?\",\r\n            \"SelectableAnswers\" : [\"Sad\", \"Angry\", \"Excited\",
+    \"Bored\"],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point Value\"
+    : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which of these words is a verb?\",\r\n            \"SelectableAnswers\"
+    : [\"Apple\", \"Jump\", \"Blue\", \"Table\"],\r\n            \"CorrectAnswer\"
+    : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"How many vowels are there in the
+    English alphabet?\",\r\n            \"SelectableAnswers\" : [\"2\", \"5\", \"8\",
+    \"10\"],\r\n            \"CorrectAnswer\" : 1,\r\n            \"Point Value\"
+    : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which word rhymes with 'cat'?\",\r\n            \"SelectableAnswers\"
+    : [\"Dog\", \"Hat\", \"Tree\", \"Fish\"],\r\n            \"CorrectAnswer\" :
+    1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"What is the plural form of 'book'?\",\r\n           
+    \"SelectableAnswers\" : [\"Bookies\", \"Books\", \"Boox\", \"Bookses\"],\r\n           
+    \"CorrectAnswer\" : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"Which word means the
+    opposite of 'big'?\",\r\n            \"SelectableAnswers\" : [\"Small\", \"Fast\",
+    \"Tall\", \"Strong\"],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point
+    Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What is the past tense of 'run'?\",\r\n            \"SelectableAnswers\"
+    : [\"Running\", \"Runs\", \"Ran\", \"Runned\"],\r\n            \"CorrectAnswer\"
+    : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"Which of these is a question?\",\r\n           
+    \"SelectableAnswers\" : [\"The sky is blue.\", \"I am hungry.\", \"What time
+    is it?\", \"She likes ice cream.\"],\r\n            \"CorrectAnswer\" : 2,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What is the name of the first letter in the English alphabet?\",\r\n           
+    \"SelectableAnswers\" : [\"A\", \"Z\", \"M\", \"D\"],\r\n            \"CorrectAnswer\"
+    : 0,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"Which of these is a color?\",\r\n           
+    \"SelectableAnswers\" : [\"Run\", \"Happy\", \"Green\", \"Jump\"],\r\n           
+    \"CorrectAnswer\" : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        }\r\n    ]\r\n}\r\n"
+--- !u!222 &1138899542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138899539}
+  m_CullTransparentMesh: 1
 --- !u!1 &1146339740
 GameObject:
   m_ObjectHideFlags: 0
@@ -8455,6 +9048,7 @@ MonoBehaviour:
   correct: {fileID: 8300000, guid: cb70fe13ceb8d6744987f78b38c04bd0, type: 3}
   incorrect: {fileID: 8300000, guid: d2851e75b4e91d74f8ee4722ddcc4782, type: 3}
   Question: {fileID: 674517051}
+  playerStatistics: {fileID: 2103116318}
   QuestionNumber: 1
 --- !u!1 &1202140726
 GameObject:
@@ -10169,6 +10763,11 @@ MonoBehaviour:
   Lesson1: {fileID: 1112838492}
   Lesson2: {fileID: 1346061935}
   Lesson3: {fileID: 1934382995}
+  Lesson4: {fileID: 760137711}
+  Lesson5: {fileID: 2133609211}
+  Lesson6: {fileID: 101036338}
+  Lesson7: {fileID: 1445705564}
+  Lesson8: {fileID: 1138899541}
   teacherMenu: {fileID: 990794065}
 --- !u!1 &1445329879
 GameObject:
@@ -10347,6 +10946,106 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1445705562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445705563}
+  - component: {fileID: 1445705565}
+  - component: {fileID: 1445705564}
+  m_Layer: 5
+  m_Name: Lesson 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1445705563
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445705562}
+  m_LocalRotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059802}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0933502}
+  m_LocalScale: {x: 0.00040000025, y: 0.00040000014, z: 0.00040000014}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952278693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275273.75, y: 275084.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1445705564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445705562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "{\r\n    \"LessonName\" : \"History Trivia\",\r\n    \"Description\" :
+    \"A question set designed to test your knowledge of historical events and figures.\",\r\n   
+    \"Questions\" : [\r\n        {\r\n            \"Text\" : \"Who was the first
+    President of the United States?\",\r\n            \"SelectableAnswers\" : [\"Thomas
+    Jefferson\", \"Abraham Lincoln\", \"George Washington\", \"John Adams\"],\r\n           
+    \"CorrectAnswer\" : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"In which year did
+    Christopher Columbus first arrive in the Americas?\",\r\n            \"SelectableAnswers\"
+    : [\"1492\", \"1620\", \"1776\", \"1865\"],\r\n            \"CorrectAnswer\"
+    : 0,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+    },\r\n        {\r\n            \"Text\" : \"Who wrote the play 'Romeo and Juliet'?\",\r\n           
+    \"SelectableAnswers\" : [\"William Shakespeare\", \"Jane Austen\", \"Mark Twain\",
+    \"Charles Dickens\"],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point
+    Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What was the name of the ship that carried the Pilgrims to North
+    America in 1620?\",\r\n            \"SelectableAnswers\" : [\"Mayflower\", \"Santa
+    Maria\", \"Nina\", \"Endeavour\"],\r\n            \"CorrectAnswer\" : 0,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Who was the first woman to fly solo across the Atlantic Ocean?\",\r\n           
+    \"SelectableAnswers\" : [\"Amelia Earhart\", \"Bessie Coleman\", \"Harriet Quimby\",
+    \"Jacqueline Cochran\"],\r\n            \"CorrectAnswer\" : 0,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        }\r\n    ]\r\n}"
+--- !u!222 &1445705565
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445705562}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1452190542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10355,6 +11054,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1822681541145500382, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      propertyPath: m_Name
+      value: Lesson 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862104385555480956, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      propertyPath: m_Name
+      value: Lesson 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4392257919229667607, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      propertyPath: m_Name
+      value: Lesson 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6121309472346626215, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
       propertyPath: m_Name
       value: LessonStorage
@@ -10401,7 +11112,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760137710}
+    - targetCorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2133609210}
+    - targetCorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 101036337}
+    - targetCorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1445705563}
+    - targetCorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1138899540}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
 --- !u!1 &1478091493 stripped
@@ -11590,6 +12316,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 174760231102273338, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 676025506177422405, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 986109533158526711, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060044792691913669, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_text
+      value: '#1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060044792691913669, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060044792691913669, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346099685276204717, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455755073799442958, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 697290938}
     - target: {fileID: 1572077628503129680, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -11632,7 +12390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1572077628503129680, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.236
+      value: -0.24
       objectReference: {fileID: 0}
     - target: {fileID: 1572077628503129680, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11652,7 +12410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1572077628503129680, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -10.834
+      value: -8.05
       objectReference: {fileID: 0}
     - target: {fileID: 1572077628503129680, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -11670,6 +12428,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1854502873544937639, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854502873544937639, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1868977830409634745, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -11678,6 +12444,26 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2145564474219112036, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617483705522947434, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833376424594122758, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976899280474069731, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258769918043247198, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3281197536133690378, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_fontSize
       value: 32.3
@@ -11694,14 +12480,88 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4401329702494623773, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4482939250780617364, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
       propertyPath: m_Name
       value: Teacher GUI
       objectReference: {fileID: 0}
+    - target: {fileID: 4482939250780617364, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749634470664647479, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775010886446287065, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 107
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427208963543930647, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5674215000147999545, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242989654482966839, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303728581435085359, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551648648181710931, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160522387628607450, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539159854682728804, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815190697096071976, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8691313129638841613, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_fontSize
+      value: 37.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8691313129638841613, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722910430706038155, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785603679205499979, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884038286327427795, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5239519079417432668, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      insertIndex: 7
+      addedObject: {fileID: 1069130419}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4482939250780617364, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103116326}
   m_SourcePrefab: {fileID: 100100000, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
 --- !u!1001 &1588522856
 PrefabInstance:
@@ -11729,15 +12589,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.715172
+      value: -3.001
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19
+      value: 0.221
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.132013
+      value: 3.833
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11921,6 +12781,7 @@ MonoBehaviour:
   correct: {fileID: 8300000, guid: cb70fe13ceb8d6744987f78b38c04bd0, type: 3}
   incorrect: {fileID: 8300000, guid: d2851e75b4e91d74f8ee4722ddcc4782, type: 3}
   Question: {fileID: 674517051}
+  playerStatistics: {fileID: 2103116318}
   QuestionNumber: 3
 --- !u!1 &1676748009
 GameObject:
@@ -12558,31 +13419,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.729332
+      value: -2.2065341
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.72
+      value: 0.724
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.7796607
+      value: 4.250457
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.3419442
+      value: 0.5246214
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.34194425
+      value: -0.52462155
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6189299
+      value: -0.47410166
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6189298
+      value: -0.47410157
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12594,7 +13455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479944, guid: 9231c8940c2a1234c82caa472d4d08e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -122.161
+      value: -84.208
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13709,7 +14570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7179462289238023466, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7179462289238023466, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13851,6 +14712,7 @@ MonoBehaviour:
   correct: {fileID: 8300000, guid: cb70fe13ceb8d6744987f78b38c04bd0, type: 3}
   incorrect: {fileID: 8300000, guid: d2851e75b4e91d74f8ee4722ddcc4782, type: 3}
   Question: {fileID: 674517051}
+  playerStatistics: {fileID: 2103116318}
   QuestionNumber: 2
 --- !u!1 &1879254908
 GameObject:
@@ -14532,6 +15394,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1952278693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7830723837877388447, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+  m_PrefabInstance: {fileID: 1452190542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1965212694
 GameObject:
   m_ObjectHideFlags: 0
@@ -15913,6 +16780,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2103116318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4482939250780617364, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &2103116324 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1455755073799442958, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103116326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103116318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13862c3ebc10da04bb254bc7d998591f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonName: {fileID: 378499352}
+  QuestionNumber: {fileID: 437041829}
+  ScoreString: {fileID: 2133960282}
+  PercentCorrect: {fileID: 1069130417}
+  Question: {fileID: 674517051}
 --- !u!1 &2118353572
 GameObject:
   m_ObjectHideFlags: 0
@@ -16018,6 +16912,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118353572}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2133609209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2133609210}
+  - component: {fileID: 2133609212}
+  - component: {fileID: 2133609211}
+  m_Layer: 5
+  m_Name: Lesson 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2133609210
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133609209}
+  m_LocalRotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059802}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0933502}
+  m_LocalScale: {x: 0.00040000025, y: 0.00040000014, z: 0.00040000014}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952278693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275273.75, y: 275084.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2133609211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133609209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "{\r\n    \"LessonName\" : \"Geography Quiz\",\r\n    \"Description\" :
+    \"A question set designed to test your knowledge of world geography.\",\r\n   
+    \"Questions\" : [\r\n        {\r\n            \"Text\" : \"What is the capital
+    of France?\",\r\n            \"SelectableAnswers\" : [\"Berlin\", \"Madrid\",
+    \"London\", \"Paris\"],\r\n            \"CorrectAnswer\" : 3,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which continent is known as the 'Land Down Under'?\",\r\n           
+    \"SelectableAnswers\" : [\"Europe\", \"Asia\", \"South America\", \"Australia\"],\r\n           
+    \"CorrectAnswer\" : 3,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"Which river is the
+    longest in the world?\",\r\n            \"SelectableAnswers\" : [\"Nile\", \"Amazon\",
+    \"Mississippi\", \"Yangtze\"],\r\n            \"CorrectAnswer\" : 0,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which mountain range spans across several countries in South America?\",\r\n           
+    \"SelectableAnswers\" : [\"Rocky Mountains\", \"Andes Mountains\", \"Himalayas\",
+    \"Alps\"],\r\n            \"CorrectAnswer\" : 1,\r\n            \"Point Value\"
+    : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"What is the largest desert in the world?\",\r\n            \"SelectableAnswers\"
+    : [\"Sahara Desert\", \"Gobi Desert\", \"Atacama Desert\", \"Antarctica\"],\r\n           
+    \"CorrectAnswer\" : 0,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"Which ocean is the
+    largest in terms of surface area?\",\r\n            \"SelectableAnswers\" : [\"Atlantic
+    Ocean\", \"Indian Ocean\", \"Arctic Ocean\", \"Pacific Ocean\"],\r\n           
+    \"CorrectAnswer\" : 3,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"What is the capital
+    of Japan?\",\r\n            \"SelectableAnswers\" : [\"Seoul\", \"Beijing\",
+    \"Tokyo\", \"Bangkok\"],\r\n            \"CorrectAnswer\" : 2,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which African country is known as the 'Rainbow Nation'?\",\r\n           
+    \"SelectableAnswers\" : [\"Nigeria\", \"Kenya\", \"South Africa\", \"Egypt\"],\r\n           
+    \"CorrectAnswer\" : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        },\r\n        {\r\n            \"Text\" : \"What is the world's
+    largest island?\",\r\n            \"SelectableAnswers\" : [\"Iceland\", \"Greenland\",
+    \"Madagascar\", \"Sri Lanka\"],\r\n            \"CorrectAnswer\" : 1,\r\n           
+    \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+    \"Text\" : \"Which country is located at the southernmost tip of Africa?\",\r\n           
+    \"SelectableAnswers\" : [\"Nigeria\", \"Morocco\", \"South Africa\", \"Tanzania\"],\r\n           
+    \"CorrectAnswer\" : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\"
+    : 1\r\n        }\r\n    ]\r\n}\r\n"
+--- !u!222 &2133609212
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133609209}
+  m_CullTransparentMesh: 1
+--- !u!114 &2133960282 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8691313129638841613, guid: 77a7289a65eec4607a281ec05808896b, type: 3}
+  m_PrefabInstance: {fileID: 1582814309}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -16035,6 +17057,7 @@ SceneRoots:
   - {fileID: 310724748}
   - {fileID: 2026797702}
   - {fileID: 1534664848}
+  - {fileID: 708083001}
   - {fileID: 1452190542}
   - {fileID: 1354736807}
   - {fileID: 1445329880}
