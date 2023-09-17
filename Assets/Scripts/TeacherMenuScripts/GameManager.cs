@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        Debug.Log("Manager");
+        lessonList = null;
     }
 
     public void setLessonList(List<Lesson> list)

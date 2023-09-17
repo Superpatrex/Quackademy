@@ -7,9 +7,14 @@ public class TeacherMenu : MonoBehaviour
 {
     public GameObject buttonPrefab;
     public GameObject buttonParent;
+    public GameObject questionObject;
+    private bool first = true;
+    public static string selectedLesson;
 
     private void OnEnable()
     {
+        if (!first) return;
+        else first = false;
         for (int i = 0; i < GameManager.lessonList.Count; i++)
         {
             GameObject newButton = Instantiate(buttonPrefab, buttonParent.transform);
@@ -17,12 +22,15 @@ public class TeacherMenu : MonoBehaviour
                 GameManager.lessonList[i].LessonName + "\n\n" +
                 GameManager.lessonList[i].Description + "\n\n" +
                 "Number of Questions: " + GameManager.lessonList[i].Questions.Length;
-            newButton.GetComponent<Button>().onClick.AddListener(() => selectLesson(i));
+            newButton.GetComponent<LessonButton>().lessonNumber = i;
+            newButton.GetComponent<Button>().onClick.AddListener(() => selectLesson(GameManager.lessonList[newButton.GetComponent<LessonButton>().lessonNumber]));
         }
     }
-
-    private void selectLesson(int i)
+    private void selectLesson(Lesson les)
     {
-        Debug.Log("Selected Lesson: " + i);
+        questionObject.GetComponent<QuestionController>().currentLesson = les;
+        questionObject.SetActive(true);
+        GameObject.Find("TeacherMenu").SetActive(false);
+
     }
 }
