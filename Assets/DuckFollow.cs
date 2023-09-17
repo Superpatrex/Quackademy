@@ -14,6 +14,6 @@ public class DuckFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new UnityEngine.Vector3(UserCamera.transform.position.x, 0, UserCamera.transform.position.z);
+        transform.position = new UnityEngine.Vector3(UserCamera.transform.position.x, 0.5f, UserCamera.transform.position.z);
     }
 }
