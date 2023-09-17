@@ -11143,6 +11143,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8525168671058478328, guid: 96b893c04c8e25149ba8d55dd23d86e9, type: 3}
+      propertyPath: m_Text
+      value: "{\r\n    \"LessonName\" : \"Basic Arithmetic 2\",\r\n    \"Description\"
+        : \"A question set designed to test students Math skills ranging from simple
+        Arithmetic to algebra\",\r\n    \"Questions\" :\r\n    [\r\n        {\r\n           
+        \"Text\" : \"3 x 4 = \",\r\n            \"SelectableAnswers\" : \r\n           
+        [\r\n                \"3\",\r\n                \"7\",\r\n               
+        \"12\",\r\n                \"15\"\r\n            ],\r\n            \"CorrectAnswer\"
+        : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+        },\r\n        {\r\n            \"Text\" : \"5 x 7 = \",\r\n            \"SelectableAnswers\"
+        : \r\n            [\r\n                \"10\",\r\n                \"17\",\r\n               
+        \"35\",\r\n                \"27\"\r\n            ],\r\n            \"CorrectAnswer\"
+        : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+        },\r\n        {\r\n            \"Text\" : \"2 x 9 = \",\r\n            \"SelectableAnswers\"
+        : \r\n            [\r\n                \"12\",\r\n                \"18\",\r\n               
+        \"9\",\r\n                \"10\"\r\n            ],\r\n            \"CorrectAnswer\"
+        : 1,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+        },\r\n        {\r\n            \"Text\" : \"12 \xF7 3 = \",\r\n           
+        \"SelectableAnswers\" : \r\n            [\r\n                \"4\",\r\n               
+        \"2\",\r\n                \"3\",\r\n                \"8\"\r\n           
+        ],\r\n            \"CorrectAnswer\" : 0,\r\n            \"Point Value\" :
+        10,\r\n            \"Tries\" : 1\r\n        },\r\n        {\r\n           
+        \"Text\" : \"21 \xF7 7 = \",\r\n            \"SelectableAnswers\" : \r\n           
+        [\r\n                \"2\",\r\n                \"10\",\r\n               
+        \"3\",\r\n                \"4\"\r\n            ],\r\n            \"CorrectAnswer\"
+        : 2,\r\n            \"Point Value\" : 10,\r\n            \"Tries\" : 1\r\n       
+        },\r\n        {\r\n            \"Text\" : \"18 \xF7 2 = \",\r\n           
+        \"SelectableAnswers\" : \r\n            [\r\n                \"10\",\r\n               
+        \"3\",\r\n                \"9\",\r\n                \"5\"\r\n           
+        ],\r\n            \"CorrectAnswer\" : 2,\r\n            \"Point Value\" :
+        10,\r\n            \"Tries\" : 1\r\n        }\r\n    ]\r\n}\r\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
