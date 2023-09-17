@@ -28,7 +28,6 @@ public class AnswerChoiceClick : MonoBehaviour
             if (QuestionNumber == Question.GetComponent<QuestionController>().correctAnswer)
             {
                 source.PlayOneShot(correct);
-                TMP_FontAsset tempFont;//
                 Question.GetComponent<QuestionController>().questionTitle.text = "CORRECT";
             }
             else
