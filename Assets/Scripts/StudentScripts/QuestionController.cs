@@ -30,6 +30,7 @@ public class QuestionController : MonoBehaviour
             boomBox.GetComponent<AudioSource>().Play();
             teacherMenu.SetActive(true);
             GameObject.Find("Question").SetActive(false);
+            CameraView.GoToMenu();
         }
         else
         {

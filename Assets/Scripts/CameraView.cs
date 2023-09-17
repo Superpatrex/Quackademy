@@ -11,6 +11,8 @@ public class CameraView : MonoBehaviour
     public Camera MenuCamera;
     public GameObject TeacherMenu;
 
+    private static CameraView ThisInstance;
+    private Camera LastCamera;
     private Camera CurrentCamera;
     private float oRotation = -90;
     private float fRotation = -90;
@@ -23,37 +25,35 @@ public class CameraView : MonoBehaviour
         SpectatorCamera.enabled = false;
         MenuCamera.enabled = true;
         CurrentCamera = MenuCamera;
+        LastCamera = FloorCamera;
+        ThisInstance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha1))
+        if (!MenuCamera.enabled)
         {
-            CurrentCamera.enabled = false;
-            CurrentCamera = SpectatorCamera;
-            CurrentCamera.enabled = true;
-        }
+            if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                CurrentCamera.enabled = false;
+                CurrentCamera = SpectatorCamera;
+                CurrentCamera.enabled = true;
+            }
 
-        if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            CurrentCamera.enabled = false;
-            CurrentCamera = OverheadCamera;
-            CurrentCamera.enabled = true;
-        }
+            if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                CurrentCamera.enabled = false;
+                CurrentCamera = OverheadCamera;
+                CurrentCamera.enabled = true;
+            }
 
-        if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            CurrentCamera.enabled = false;
-            CurrentCamera = FloorCamera;
-            CurrentCamera.enabled = true;
-        }
-
-        if (UnityEngine.Input.GetKeyDown(KeyCode.Q))
-        {
-            CurrentCamera.enabled = false;
-            CurrentCamera = MenuCamera;
-            CurrentCamera.enabled = true;
+            if (UnityEngine.Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                CurrentCamera.enabled = false;
+                CurrentCamera = FloorCamera;
+                CurrentCamera.enabled = true;
+            }
         }
 
         if (OverheadCamera.enabled)
@@ -91,5 +91,20 @@ public class CameraView : MonoBehaviour
             FloorCamera.transform.position = Quaternion.Euler(0, fRotation, 0) * new Vector3(0, 1.5f, -3.5f);
             FloorCamera.transform.rotation = Quaternion.LookRotation(SpectatorCamera.transform.position - FloorCamera.transform.position + new Vector3(-2, 0, 0));
         }
+    }
+
+    public static void GoBack()
+    {
+        ThisInstance.CurrentCamera.enabled = false;
+        ThisInstance.CurrentCamera = ThisInstance.LastCamera;
+        ThisInstance.CurrentCamera.enabled = true;
+    }
+
+    public static void GoToMenu()
+    {
+        ThisInstance.LastCamera = ThisInstance.CurrentCamera;
+        ThisInstance.CurrentCamera.enabled = false;
+        ThisInstance.CurrentCamera = ThisInstance.MenuCamera;
+        ThisInstance.CurrentCamera.enabled = true;
     }
 }

@@ -23,14 +23,14 @@ public class TeacherMenu : MonoBehaviour
                 GameManager.lessonList[i].Description + "\n\n" +
                 "Number of Questions: " + GameManager.lessonList[i].Questions.Length;
             newButton.GetComponent<LessonButton>().lessonNumber = i;
-            newButton.GetComponent<Button>().onClick.AddListener(() => selectLesson(GameManager.lessonList[newButton.GetComponent<LessonButton>().lessonNumber]));
+            newButton.GetComponent<Button>().onClick.AddListener(() => SelectLesson(GameManager.lessonList[newButton.GetComponent<LessonButton>().lessonNumber]));
         }
     }
-    private void selectLesson(Lesson les)
+    private void SelectLesson(Lesson les)
     {
         questionObject.GetComponent<QuestionController>().currentLesson = les;
         questionObject.SetActive(true);
         GameObject.Find("TeacherMenu").SetActive(false);
-
+        CameraView.GoBack();
     }
 }
