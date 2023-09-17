@@ -7,5 +7,5 @@ using TMPro;
 public class LessonButton : MonoBehaviour
 {
     public TMP_Text lessonText;
-
+    public int lessonNumber;
 }

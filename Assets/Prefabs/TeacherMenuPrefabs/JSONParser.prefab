@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4505504770115224094}
-  - component: {fileID: 8514816535599652187}
+  - component: {fileID: 2965171604182425336}
   m_Layer: 0
   m_Name: JSONParser
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8514816535599652187
+--- !u!114 &2965171604182425336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2197359312453344749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5d0eb5c5a9aa754fbe9521e53da9525, type: 3}
+  m_Script: {fileID: 11500000, guid: c8d2dc7b4eba5354987e5dcb18d00cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lesson1: {fileID: 0}
+  Lesson2: {fileID: 0}
+  Lesson3: {fileID: 0}
   teacherMenu: {fileID: 0}

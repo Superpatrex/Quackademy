@@ -12,6 +12,13 @@ public class Lesson
     {
         return JsonUtility.FromJson<Lesson>(jsonString);
     }
+
+    public Lesson(string LessonName, string Description, Question [] Questions)
+    {
+        this.LessonName = LessonName;
+        this.Description = Description;
+        this.Questions = Questions;
+    }
 }
 
 [System.Serializable]
@@ -22,4 +29,13 @@ public class Question
     public uint CorrectAnswer;
     public uint PointValue;
     public uint Tries;
+
+    public Question(string Text, string[] SelectableAnswers, uint CorrectAnswer, uint PointValue, uint Tries)
+    {
+        this.Text = Text;
+        this.SelectableAnswers = SelectableAnswers;
+        this.CorrectAnswer = CorrectAnswer;
+        this.PointValue = PointValue;
+        this.Tries = Tries;
+    }
 }
