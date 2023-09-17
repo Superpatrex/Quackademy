@@ -8,6 +8,7 @@ public class CameraView : MonoBehaviour
     public Camera OverheadCamera;
     public Camera FloorCamera;
     public Camera SpectatorCamera;
+    public Camera MenuCamera;
     public GameObject TeacherMenu;
 
     private Camera CurrentCamera;
@@ -17,7 +18,11 @@ public class CameraView : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CurrentCamera = OverheadCamera;
+        OverheadCamera.enabled = false;
+        FloorCamera.enabled = false;
+        SpectatorCamera.enabled = false;
+        MenuCamera.enabled = true;
+        CurrentCamera = MenuCamera;
     }
 
     // Update is called once per frame
@@ -45,7 +50,11 @@ public class CameraView : MonoBehaviour
         }
 
         if (UnityEngine.Input.GetKeyDown(KeyCode.Q))
-            CurrentCamera.cullingMask ^= (1 << 6);
+        {
+            CurrentCamera.enabled = false;
+            CurrentCamera = MenuCamera;
+            CurrentCamera.enabled = true;
+        }
 
         if (OverheadCamera.enabled)
         {
@@ -82,8 +91,5 @@ public class CameraView : MonoBehaviour
             FloorCamera.transform.position = Quaternion.Euler(0, fRotation, 0) * new Vector3(0, 1.5f, -3.5f);
             FloorCamera.transform.rotation = Quaternion.LookRotation(SpectatorCamera.transform.position - FloorCamera.transform.position + new Vector3(-2, 0, 0));
         }
-
-        TeacherMenu.transform.position = CurrentCamera.transform.position + CurrentCamera.transform.forward * 1;
-        TeacherMenu.transform.rotation = CurrentCamera.transform.rotation;
     }
 }

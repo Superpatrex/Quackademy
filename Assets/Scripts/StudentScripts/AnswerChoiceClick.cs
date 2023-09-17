@@ -19,7 +19,6 @@ public class AnswerChoiceClick : MonoBehaviour
     // Runs when this answer choice is clicked
     public void isClicked()
     {
-        
         if (QuestionNumber == Question.GetComponent<QuestionController>().correctAnswer)
         {
            source.PlayOneShot(correct);
